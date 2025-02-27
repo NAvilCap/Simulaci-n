@@ -1,0 +1,168 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNcFzp/zW7tDZ2Z7ay9Heis",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/NAvilCap/Simulaci-n/blob/main/EjercicioCuadrados\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "id": "yUmVKiok7lVD",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "3594ea31-2ebb-4eee-a8b3-f85b05157364"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número Aleatorio 1: 2710\n",
+            "Número Aleatorio 2: 3441\n",
+            "Número Aleatorio 3: 8404\n",
+            "Número Aleatorio 4: 6272\n",
+            "Número Aleatorio 5: 3379\n",
+            "Número Aleatorio 6: 4176\n",
+            "Número Aleatorio 7: 4389\n",
+            "Número Aleatorio 8: 2633\n",
+            "Número Aleatorio 9: 9326\n",
+            "Número Aleatorio 10: 9742\n",
+            "Número Aleatorio 11: 9065\n",
+            "Número Aleatorio 12: 1742\n",
+            "Número Aleatorio 13: 345\n",
+            "Número Aleatorio 14: 1190\n",
+            "Número Aleatorio 15: 4161\n",
+            "Número Aleatorio 16: 3139\n",
+            "Número Aleatorio 17: 8533\n",
+            "Número Aleatorio 18: 8120\n",
+            "Número Aleatorio 19: 9344\n",
+            "Número Aleatorio 20: 3103\n",
+            "Número Aleatorio 21: 6286\n",
+            "Número Aleatorio 22: 5137\n",
+            "Número Aleatorio 23: 3887\n",
+            "Número Aleatorio 24: 1087\n",
+            "Número Aleatorio 25: 1815\n",
+            "Número Aleatorio 26: 2942\n",
+            "Número Aleatorio 27: 6553\n",
+            "Número Aleatorio 28: 9418\n",
+            "Número Aleatorio 29: 6987\n",
+            "Número Aleatorio 30: 8181\n",
+            "Número Aleatorio 31: 9287\n",
+            "Número Aleatorio 32: 2483\n",
+            "Número Aleatorio 33: 1652\n",
+            "Número Aleatorio 34: 7291\n",
+            "Número Aleatorio 35: 1586\n",
+            "Número Aleatorio 36: 5153\n",
+            "Número Aleatorio 37: 5534\n",
+            "Número Aleatorio 38: 6251\n",
+            "Número Aleatorio 39: 750\n",
+            "Número Aleatorio 40: 5625\n",
+            "Número Aleatorio 41: 6406\n",
+            "Número Aleatorio 42: 368\n",
+            "Número Aleatorio 43: 1354\n",
+            "Número Aleatorio 44: 8333\n",
+            "Número Aleatorio 45: 4388\n",
+            "Número Aleatorio 46: 2545\n",
+            "Número Aleatorio 47: 4770\n",
+            "Número Aleatorio 48: 7529\n",
+            "Número Aleatorio 49: 6858\n",
+            "Número Aleatorio 50: 321\n",
+            "Número Aleatorio 51: 1030\n",
+            "Número Aleatorio 52: 609\n",
+            "Número Aleatorio 53: 3708\n",
+            "Número Aleatorio 54: 7492\n",
+            "Número Aleatorio 55: 1300\n",
+            "Número Aleatorio 56: 6900\n",
+            "Número Aleatorio 57: 6100\n",
+            "Número Aleatorio 58: 2100\n",
+            "Número Aleatorio 59: 4100\n",
+            "Número Aleatorio 60: 8100\n",
+            "Número Aleatorio 61: 6100\n",
+            "Número Aleatorio 62: 2100\n",
+            "Número Aleatorio 63: 4100\n",
+            "Número Aleatorio 64: 8100\n",
+            "Número Aleatorio 65: 6100\n",
+            "Número Aleatorio 66: 2100\n",
+            "Número Aleatorio 67: 4100\n",
+            "Número Aleatorio 68: 8100\n",
+            "Número Aleatorio 69: 6100\n",
+            "Número Aleatorio 70: 2100\n",
+            "Número Aleatorio 71: 4100\n",
+            "Número Aleatorio 72: 8100\n",
+            "Número Aleatorio 73: 6100\n",
+            "Número Aleatorio 74: 2100\n",
+            "Número Aleatorio 75: 4100\n",
+            "Número Aleatorio 76: 8100\n",
+            "Número Aleatorio 77: 6100\n",
+            "Número Aleatorio 78: 2100\n",
+            "Número Aleatorio 79: 4100\n",
+            "Número Aleatorio 80: 8100\n",
+            "Número Aleatorio 81: 6100\n",
+            "Número Aleatorio 82: 2100\n",
+            "Número Aleatorio 83: 4100\n",
+            "Número Aleatorio 84: 8100\n",
+            "Número Aleatorio 85: 6100\n",
+            "Número Aleatorio 86: 2100\n",
+            "Número Aleatorio 87: 4100\n",
+            "Número Aleatorio 88: 8100\n",
+            "Número Aleatorio 89: 6100\n",
+            "Número Aleatorio 90: 2100\n",
+            "Número Aleatorio 91: 4100\n",
+            "Número Aleatorio 92: 8100\n",
+            "Número Aleatorio 93: 6100\n",
+            "Número Aleatorio 94: 2100\n",
+            "Número Aleatorio 95: 4100\n",
+            "Número Aleatorio 96: 8100\n",
+            "Número Aleatorio 97: 6100\n",
+            "Número Aleatorio 98: 2100\n",
+            "Número Aleatorio 99: 4100\n",
+            "Número Aleatorio 100: 8100\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Semilla inicial\n",
+        "semilla = 1507\n",
+        "n = 4\n",
+        "iteraciones = 100\n",
+        "resultados = []\n",
+        "\n",
+        "for _ in range(iteraciones):\n",
+        "    # Elevar la semilla al cuadrado\n",
+        "    cuadrado = str(semilla ** 2).zfill(2 * n)  #Agregar los espacios necesarios\n",
+        "    # Extraer los dígitos centrales\n",
+        "    inicio = (len(cuadrado) - n) // 2\n",
+        "    semilla = int(cuadrado[inicio:inicio + n])\n",
+        "    resultados.append(semilla)\n",
+        "\n",
+        "# Imprimir los resultados\n",
+        "for i, numero in enumerate(resultados, 1):\n",
+        "    print(f\"Número Aleatorio {i}: {numero}\")"
+      ]
+    }
+  ]
+}
